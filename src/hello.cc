@@ -13,4 +13,4 @@ void init(Handle<Object> exports)
     NODE_SET_METHOD(exports, "hello", Method);
 }
 
-NODE_MODULE(goldworm_hello, init)
+NODE_MODULE(hello, init)

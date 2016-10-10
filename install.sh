@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # Electron's version.
-export npm_config_target=1.3.4
+export npm_config_target=1.3.6
 # The architecture of Electron, can be ia32 or x64.
 export npm_config_arch=ia32
 # Download headers for Electron.

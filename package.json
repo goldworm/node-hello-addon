@@ -1,10 +1,26 @@
 {
-  "name": "goldworm_hello",
+  "name": "hello",
   "version": "1.0.3",
   "description": "hello native module",
-  "main": "./build/Release/goldworm_hello.node",
+  "main": "./index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "preinstall": "npm install node-pre-gyp",
+    "install": "node-pre-gyp install --fallback-to-build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/goldworm/node-hello-addon.git"
+  },
+	"dependencies"  : {
+	  "nan": "2.x",
+	  "node-pre-gyp": "0.6.x"
+	},
+  "binary": {
+	"module_name": "hello",
+    "module_path": "./lib/binding/{configuration}/{node_abi}-{platform}-{arch}/",
+	"host": "https://github.com/goldworm/node-hello-addon.git/releases/download/",
+	"remote_path": "{version}"
   },
   "author": "",
   "license": "ISC",
