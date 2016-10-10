@@ -1,0 +1,12 @@
+{
+  "name": "goldworm_hello",
+  "version": "1.0.3",
+  "description": "hello native module",
+  "main": "./build/Release/goldworm_hello.node",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "gypfile": true
+}
