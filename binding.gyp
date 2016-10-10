@@ -1,9 +1,8 @@
 {
     "targets": [
         {
-            "target_name": "hello",
+            "target_name": "<(module_name)",
             "type": "none",
-            "dependencies": [ "<(module_name)" ],
             "sources": [ "src/hello.cc" ],
             "conditions": [
                 ["OS == 'win'", {
