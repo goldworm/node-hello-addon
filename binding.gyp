@@ -2,7 +2,6 @@
     "targets": [
         {
             "target_name": "<(module_name)",
-            "type": "none",
             "sources": [ "src/hello.cc" ],
             "conditions": [
                 ["OS == 'win'", {

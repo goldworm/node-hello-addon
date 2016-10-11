@@ -24,7 +24,7 @@
 	"module_name": "hello",
     "module_path": "./lib/binding/{configuration}/{node_abi}-{platform}-{arch}/",
     "package_name": "{module_name}-v{version}-{node_abi}-{platform}-{arch}.tar.gz",
-	"host": "https://github.com/goldworm/node-hello-addon.git/releases/download/",
+	"host": "https://github.com/goldworm/node-hello-addon/releases/download/",
 	"remote_path": "{version}"
   },
   "author": "",
